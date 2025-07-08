@@ -17,7 +17,7 @@ const GOALS = [
 export default function OnboardingScreen() {
   const [country, setCountry] = useState("NG");
   const [goal, setGoal] = useState("healthy");
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
 
   return (
     <View style={styles.container}>
