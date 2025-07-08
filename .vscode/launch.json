@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Backend: Auth Service",
+      "type": "debugpy", // changed from "python"
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["backend.auth.main:app", "--reload"],
+      "env": {
+        "DATABASE_URL": "postgresql://mealapp:secret@localhost:5432/mealapp"
+      },
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Mobile: Expo",
+      "request": "launch",
+      "type": "node",
+      "cwd": "${workspaceFolder}/mobile/mealapp",
+      "program": "${workspaceFolder}/mobile/mealapp/node_modules/.bin/expo",
+      "args": ["start"]
+    }
+  ]
+}
