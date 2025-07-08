@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "python.analysis.extraPaths": ["backend/shared"],
+  "python.testing.pytestEnabled": true,
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  }
+}
