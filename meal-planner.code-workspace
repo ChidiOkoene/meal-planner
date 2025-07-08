@@ -1,0 +1,9 @@
+{
+  "folders": [
+    {"path": "."},
+    {"path": "mobile"},
+    {"path": "backend"},
+    {"path": "infra"},
+    {"path": "ai-engine"}
+  ]
+}
